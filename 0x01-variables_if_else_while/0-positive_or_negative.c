@@ -12,7 +12,7 @@
  * main - This contains the  code
  * return: void
  */
-int main(void)
+int main()
 {
 	int n;
 
