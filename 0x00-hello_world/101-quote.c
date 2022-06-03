@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -12,4 +12,4 @@ int main(void)
 	fprintf(stderr, "useful\" - Dora Korpar, 2015-10-19\n");
 	getchar();
 	return (1);
-}}
+}
