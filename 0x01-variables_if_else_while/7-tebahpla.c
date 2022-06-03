@@ -1,10 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-
-
 /**
- * main - all my code is in the main section
+ * main - all my code is here
  * Return: void
  */
 
