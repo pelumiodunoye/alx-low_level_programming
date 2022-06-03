@@ -1,10 +1,9 @@
-  
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /*
  * main - This contain the main code
- * Return: void
+ * Return: 0
  */
 int main(void)
 {
