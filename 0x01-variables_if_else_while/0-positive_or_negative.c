@@ -2,13 +2,17 @@
 #include <time.h>
 #include <stdio.h>
 
-/* this program checks if a number is positive
+
+/*
+ * this program checks if a number is positive
  *  or negative and the number
  *  to be checked is generated at random
  */
+/*
+ * main-contains the main code
+ * return: void
+ */
 
-/* All my codes are written in the main section,
- * the return section is negative */
 int main(void)
 {
 	int n;
