@@ -8,9 +8,11 @@
  *  or negative and the number
  *  to be checked is generated at random
  */
-/*
- * main - This contains the  code
- * return: void
+
+
+/**
+ * main - This contains all the main code
+ * Return: void
  */
 int main(void)
 {
