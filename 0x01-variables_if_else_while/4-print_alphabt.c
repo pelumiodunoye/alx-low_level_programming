@@ -3,12 +3,12 @@
 
 /**
  * main - this is where the code is
- * Returnv void
+ * Return: void
  */
 
 int main(void)
 {
-	char c,
+	char c;
 	     
 	     for (c = 'a'; c <= 'z'; c++)
 		     if (c != 'e')
