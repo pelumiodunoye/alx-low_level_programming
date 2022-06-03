@@ -1,26 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main()
+/**
+ * main - this contains all the code
+ * Return: void
+ */
+
+int main(void)
 {
-	//loop counter or a variable that
-	//will store initial alphabet,
-	//from where we will print the alphabets
-	char alphabet;
-	//assigning 'a' as initial alphabet
-	alphabet='a';
+	char c;
 
-	//print statement
-	printf("Lowercase alphabets:\n");
-
-	//loop statement, that will check the condition
-	//and print the alphabets from 'a' to 'z'
-	while(alphabet<='z')
-	{
-		//printing the alphabets
-		printf("%c ",alphabet);
-		//increasing the value by 1
-		alphabet++;
-	}
+	for (c = 'a'; c<='z'; c++)
+		putchar (c);
+			putchar ('\n');
 
 	return 0;
 }
