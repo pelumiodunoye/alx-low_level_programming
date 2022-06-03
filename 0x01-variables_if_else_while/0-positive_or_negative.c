@@ -9,10 +9,10 @@
  *  to be checked is generated at random
  */
 /*
- * main - This contains the main code
+ * main - This contains the  code
  * return: void
  */
-int main (void)
+int main(void)
 {
 	int n;
 
