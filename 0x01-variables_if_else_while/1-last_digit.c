@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - This contain the main code
+ * main - contains all the code
  * Return: 0
  */
 int main(void)
