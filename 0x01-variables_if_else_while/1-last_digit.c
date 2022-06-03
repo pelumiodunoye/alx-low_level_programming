@@ -1,15 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+
+
+/**
  * main - contains all the code
  * Return: 0
  */
 int main(void)
-{
-	int n;
+{	int n;
 	int a;
-
 
 
 	srand(time(0));
