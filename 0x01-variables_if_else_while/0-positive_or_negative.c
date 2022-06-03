@@ -9,7 +9,7 @@
  *  to be checked is generated at random
  */
 /*
- * main-contains the main code
+ * main - This contains the main code
  * return: void
  */
 
