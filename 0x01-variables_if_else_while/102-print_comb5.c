@@ -37,7 +37,7 @@ int main(void)
 						putchar(i);
 						putchar(t);
 
-						if (d == '7' && g == '8')
+						if (d == '9' && g == '9')
 							break;
 						{
 							putchar(',');
