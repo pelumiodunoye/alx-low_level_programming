@@ -1,8 +1,9 @@
-#include <stdlib.h>
+ #include <stdlib.h>
 #include <stdio.h>
 
+
 /**
- * main - all my code is here
+ * main - This where all codes go
  * Return: void
  */
 
