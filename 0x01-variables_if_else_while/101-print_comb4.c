@@ -1,8 +1,8 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
- * main - this is where my code is preserved
+ * main - this is thd main
  * Return: void
  */
 
@@ -18,28 +18,24 @@ int main(void)
 
 		for (g = '0'; g <= '9'; g++)
 		{
-			
 			for (j = '0'; j <= '9'; j++)
 			{
-
-			if (d < g && g < j)
-			{
-				putchar(d);
-				putchar(g);
-				putchar(j);
-
-				if (d != '8')
+				if (d < g && g <j)
 				{
-					putchar(',');
-					putchar(' ');
-			
+					putchar(d);
+					putchar(g);
+					putchar(j);
+
+					if (d != '7')
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
 
 	}
-	
-}
 	putchar('\n');
 	return (0);
 }
