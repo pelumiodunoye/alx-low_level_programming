@@ -1,51 +1,34 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/*
- * This is going to print the comnination of
- * two numbers so that none of them is repeated.
- * okay lets go
- */
+
 
 /**
- * main - this is thd main
+ * main - my code is here
  * Return: void
  */
 
 int main(void)
 {
 
-	int d;
-	int g;
-	int i;
-	int t;
+	int a;
+	int b;
 
-	for (d = '0'; d <= '9'; d++)
+	for (a = '0'; d <= '98'; a++)
 	{
 
-		for (g = '0'; g <= '9'; g++)
+		for (b = '0'; b <= '99'; b++)
 		{
-			for (i = '0'; i <= '9'; i++)
-			{
-				for (t = '0'; t <= '9'; t++)
-				{
-					if ((d + g) <= (i + t))
-					{
-						putchar(d);
-						putchar(g);
-						putchar(' ');
-						putchar(i);
-						putchar(t);
-
-						if (d == '9' && g == '9')
-							break;
-						{
+			
+			putchar(a);
+			putchar(' ');
+			putchar(b);
+			
+			if (a == '98' && b == '99')
+				continue;
+						
 							putchar(',');
 							putchar(' ');
-						}
-					}
-				}
-			}
 		}
 
 	}
