@@ -14,17 +14,17 @@ int main(void)
 	int a;
 	int b;
 
-	for (a = '0'; a <= '98'; a++)
+	for (a = 0; a <= 98; a++)
 	{
 
-		for (b = '0'; b <= '99'; b++)
+		for (b = 0; b <= 99; b++)
 		{
 			
 			putchar(a);
 			putchar(' ');
 			putchar(b);
 			
-			if (a == '98' && b == '99')
+			if (a == 98 && b == 99)
 				continue;
 						
 							putchar(',');
