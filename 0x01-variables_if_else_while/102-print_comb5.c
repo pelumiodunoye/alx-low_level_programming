@@ -1,6 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+
+
 /**
  * main - my code is here
  * Return: void
@@ -28,14 +30,14 @@ int main(void)
 					putchar(' ');
 					putchar(c);
 					putchar(d);
+	
+			putchar(',');
+			putchar(' ');
 					}
 				}
 			}
 		}
 	}
-
-
-			putchar(',');
-			putchar(' ');
+	putchar('\n');
 	return (0);
 }
