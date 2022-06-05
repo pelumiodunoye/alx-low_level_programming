@@ -14,6 +14,8 @@ int main(void)
 	int b;
 	int c;
 	int d;
+
+
 	for (a = '0'; a <= '9'; a++)
 	{
 		for (b = '0'; b <= '9'; b++)
@@ -29,13 +31,13 @@ int main(void)
 					putchar(' ');
 					putchar(c);
 					putchar(d);
-			putchar(',');
-			putchar(' ');
 					}
 				}
 			}
 		}
 	}
+	putchar(',');
+	putchar(' ');
 	putchar('\n');
 	return (0);
 }
