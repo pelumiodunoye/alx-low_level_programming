@@ -31,17 +31,17 @@ int main(void)
 					putchar(' ');
 					putchar(c);
 					putchar(d);
-					putchar(',');
 					}
 					if (d == '9' && g == '8')
 						break;
 					{
 						putchar(',');
-						putchar('\n');
+						putchar(' ');
 					}
 				}
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
