@@ -32,16 +32,12 @@ int main(void)
 					putchar(c);
 					putchar(d);
 					}
-					if (a == '9' && b == '8')
-						break;
-					{
-						putchar(',');
-						putchar(' ');
-					}
 				}
 			}
 		}
 	}
+	putchar(',');
+	putchar(' ');
 	putchar('\n');
 	return (0);
 }
