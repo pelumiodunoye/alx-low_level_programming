@@ -1,43 +1,42 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
+
+/*
+ * This is going to print the comnination of
+ * two numbers so that none of them is repeated.
+ * okay lets go
+ */
 
 /**
- * main - this is the main
+ * main - this is thd main
  * Return: void
  */
 
 int main(void)
 {
-	int a;
-	int b;
-	int c;
+
 	int d;
-for (a = '0' ; a <= '9' ; a++)
-{
-	for (b = '0' ; b <= '9' ; b++)
+	int g;
+
+	for (d = 0; d < 100; d++)
 	{
-		for (c = '0' ; c <= '9' ; c++)
+		for (g = 0; g < 100; g++)
 		{
-			for (d = '0' ; d <= '9' ; d++)
+			if (d < g)
 			{
-				if ((a + b) < (c + d))
+				putchar(d / 10 + 48);
+				putchar(d % 10 + 48);
+				putchar(' ');
+				putchar(g / 10 + 48);
+				putchar(g % 10 + 48);
+				if (d != 98)
 				{
-					putchar(a);
-					putchar(b);
+					putchar(44);
 					putchar(' ');
-					putchar(c);
-					putchar(d);
-					if (a == '9' && b == '8')
-						break;
-					{
-						putchar(',');
-						putchar(' ');
-					}
 				}
 			}
 		}
 	}
-}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
