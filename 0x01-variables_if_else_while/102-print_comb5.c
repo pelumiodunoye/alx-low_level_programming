@@ -34,10 +34,14 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 					}
+					if ( a + b == '98' && c + d == '99')
+						break;
+					{
+					putchar('\n');
+					}
 				}
 			}
 		}
 	}
-	putchar('\n');
 	return (0);
 }
