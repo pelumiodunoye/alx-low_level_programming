@@ -26,18 +26,17 @@ int main(void)
 				{
 					if (a + b < c + d)
 					{
-					putchar(a);
-					putchar(b);
-					putchar(' ');
-					putchar(c);
-					putchar(d);
-					putchar(',');
-					}
-					if (a + b == 98 && c + d == 99)
-						break;
-					{
-						putchar(' ');
-						putchar('\n');
+						if (a + b == 98 && c + d == 99)
+						{
+							putchar(a);
+							putchar(b);
+							putchar(' ');
+							putchar(c);
+							putchar(d);
+							putchar(',');
+							putchar(' ');
+							putchar('\n');
+						}
 					}
 				}
 			}
