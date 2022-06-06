@@ -32,12 +32,12 @@ int main(void)
 					putchar(c);
 					putchar(d);
 					putchar(',');
-					putchar(' ');
 					}
 					if (a + b == 98 && c + d == 99)
 						break;
 					{
-					putchar('\n');
+						putchar(' ');
+						putchar('\n');
 					}
 				}
 			}
