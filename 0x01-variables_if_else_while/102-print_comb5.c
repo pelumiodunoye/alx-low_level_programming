@@ -20,7 +20,7 @@ for (a = '0' ; a <= '9' ; a++)
 		{
 			for (d = '0' ; d <= '9' ; d++)
 			{
-				if ((a + b) <= (c + d))
+				if ((a + b) < (c + d))
 				{
 					putchar(a);
 					putchar(b);
