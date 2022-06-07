@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _islower - this is the main
+ * _isalpha - this is the main
  * @i: this is the input
  * Return: void
  */
@@ -14,5 +14,5 @@ int _isalpha(int i)
 	else if (i >= 'A' && i <= 'Z')
 		return (1);
 	else
-		return(0);
+		return (0);
 }
