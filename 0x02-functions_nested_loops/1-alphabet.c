@@ -6,11 +6,11 @@
  */
 
 /**
- * prnt_alphabet - code  here
+ * print_alphabet - code  here
  * Return: void
  */
 
-void prnt_alphabet(void)
+void print_alphabet(void)
 {
 	int i;
 
