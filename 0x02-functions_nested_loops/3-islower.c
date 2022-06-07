@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * _is_lower - this is the main
+ * _islower - this is the main
  * Return: void
  */
 
-int _is_lower(int i)
+int _islower(int i)
 {
 	if((i = 'a') && (i <= 'z'))
 		return (1);
