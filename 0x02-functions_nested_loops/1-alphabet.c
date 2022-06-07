@@ -1,18 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
+ * This program prints a-z
+ */
+
 /**
- * main - this contains all the code
+ * prnt_alphabet - code  here
  * Return: void
  */
 
-int main(void)
+void prnt_alphabet(void)
 {
-	char c;
+	int i;
 
-	for (c = 'a'; c <= 'z'; c++)
-		putchar (c);
-			putchar ('\n');
-
-	return (0);
+	for (i = 'a'; i <= 'z'; i++)
+		putchar(i);
 }
