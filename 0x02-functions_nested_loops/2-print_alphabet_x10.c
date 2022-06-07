@@ -3,7 +3,7 @@
 
 
 /**
- * prnt_alphabet_x10 - i have purposely removed a letter
+ * print_alphabet_x10 - my code goes thus
  * Return: void
  */
 
