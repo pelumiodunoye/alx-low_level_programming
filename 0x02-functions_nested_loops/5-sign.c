@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _print_sign(int n) - this is the main
+ *print_sign - this is the main
  * @n: this is the input
  * Return: void
  */
