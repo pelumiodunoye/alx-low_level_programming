@@ -1,12 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
- * This program prints a-z
- */
 
 /**
- * print_alphabet - code  here
+ * print_alphabet - is right  here
  * Return: void
  */
 
@@ -16,5 +13,5 @@ void print_alphabet(void)
 
 	for (i = 'a'; i <= 'z'; i++)
 		putchar(i);
-	putchar(' ');
+	putchar('\n');
 }
