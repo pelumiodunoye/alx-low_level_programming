@@ -1,29 +1,25 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
- *print_sign - this is the main
- * @n: this is the input
- * Return: void
+ * print_sign - a function that prints the sign of a number
+ * @n: number input
+ * Return: 1 and prints + if n is greater than zero
+ * 0 and prints 0 if n is zero
+ * -1 and prints - if n is less than zero
  */
-
 int print_sign(int n)
 {
-	if (n > 48)
+	if (n > 0)
 	{
-		putchar(43);
+		_putchar('+');
 		return (1);
-	}
-
-	else if (n == 48)
+	} else if (n == 0)
 	{
-		putchar(48);
+		_putchar(48);
 		return (0);
-	}
-
-	else
+	} else if (n < 0)
 	{
-		putchar(45);
-		return (-1);
+		_putchar('-');
 	}
+	return (-1);
 }
