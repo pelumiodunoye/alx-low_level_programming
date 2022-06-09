@@ -1,20 +1,15 @@
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
- * _isdigit - my code is here
- * @c: digit
- * Return: 1 if c is a digit and 0 if c is not a digit
+ * _isdigit - code in here
+ * @c: this is the input
+ * Return: 1 if true and 0 otherwise
  */
 
 int _isdigit(int c)
 {
-	if (c >= '0' && c<= '9')
-	{
+	if (c >= '0' && c <= '9')
 		return (1);
-	}
 	else
-	{
 		return (0);
-	}
 }
