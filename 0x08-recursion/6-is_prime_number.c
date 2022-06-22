@@ -13,5 +13,4 @@ int is_prime_number(int n)
 		return (0);
 	else if (i == n)
 		return (1);
-}
 
