@@ -25,11 +25,9 @@ int _atoi(char *s)
 			return (-1010);
 
                 if (s[c] == '-' && skip == 1)
-                        sign = sign * -1;
-		if (skip == 0)
+                        sign = sign * -1;                                       if (skip == 0)
                         break;
-                c++;
-	}
+                c++;                                                    }
         return (sign * i);
 }
 
